@@ -2,6 +2,9 @@
 
 export const useUser = defineStore('user', {
     state: () => ({
-        isLogin: false
+        isLogin: false,
+        websiteName: '房讯通',
+        slogan: 'xxxx',
+        logo: '',
     })
 })
